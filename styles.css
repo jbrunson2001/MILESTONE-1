@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 18px;
+}
+
+#top {
+    background-color: black;
+    color: #ffc629;
+    padding: 10px;
+    border: 3px solid #ffc629;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+nav a {
+    background-color: #ffc629;
+    color: black;
+    padding: 6px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #ffc629;
+}
+
+.page {
+    border: 2px solid black;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.goldbox {
+    background-color: #fff3c4;
+    border: 2px solid #ffc629;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.simple-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+img {
+    max-width: 520px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 14px;
+    border-top: 2px solid black;
+    padding-top: 8px;
+}
